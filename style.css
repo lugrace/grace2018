@@ -1,0 +1,61 @@
+.static{
+	position:fixed;
+	top:auto;
+	bottom:0px;
+	left:3%;
+	right:auto;
+	font-size:0.25em;
+}
+
+.animate{
+	background: linear-gradient(270deg, #FD746C, #2C3E50);
+	background-size: 400% 400%;
+
+	-webkit-animation: GradientAnimation 10s ease infinite;
+	-moz-animation: GradientAnimation 10s ease infinite;
+	animation: GradientAnimation 10s ease infinite;
+}
+
+#love{
+  color: #7d8184;
+}
+
+body{
+	text-align:center;
+	margin-top: 10%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-bottom:10%;
+	background-color: ##ffffff; /*white*/
+	/*color: #252526; /*off black*/
+	color: #FFFFFF;
+	font-family:Monteserrat,Helvetica, sans-serif, serif;
+	/*font-weight: 800;
+	font-size:2em;
+	text-transform:uppercase;*/
+}
+
+body .intro-text .intro-heading {
+	font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 8em;
+	line-height: 1em;
+	margin-bottom: 15px;
+}
+
+ @-webkit-keyframes GradientAnimation {
+     0%{background-position:0% 50%}
+     50%{background-position:100% 50%}
+     100%{background-position:0% 50%}
+ }
+ @-moz-keyframes GradientAnimation {
+     0%{background-position:0% 50%}
+     50%{background-position:100% 50%}
+     100%{background-position:0% 50%}
+ }
+ @keyframes GradientAnimation {
+     0%{background-position:0% 50%}
+     50%{background-position:100% 50%}
+     100%{background-position:0% 50%}
+ }
