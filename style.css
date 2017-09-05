@@ -4,7 +4,7 @@
 	bottom:0px;
 	left:3%;
 	right:auto;
-	font-size:0.25em;
+	font-size:1em;
 }
 
 .animate{
@@ -16,23 +16,42 @@
 	animation: GradientAnimation 10s ease infinite;
 }
 
+.whiteback{
+	color: #313131;
+}
+
 #love{
   color: #7d8184;
 }
 
 body{
 	text-align:center;
-	margin-top: 10%;
-	margin-left:15%;
-	margin-right:15%;
-	margin-bottom:10%;
-	background-color: ##ffffff; /*white*/
-	/*color: #252526; /*off black*/
+	padding: 0px;
+	margin: 0px;
+	background-color: #ffffff; /*white*/
 	color: #FFFFFF;
-	font-family:Monteserrat,Helvetica, sans-serif, serif;
-	/*font-weight: 800;
-	font-size:2em;
-	text-transform:uppercase;*/
+	font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+}
+
+body .widget{
+	width: 25%;
+	height: 500px;
+	margin-left: 2%;
+	margin-right:2%;
+	display: inline-flex;
+	outline: #313131 dotted thick;
+}
+
+body .widget .title{
+	text-transform:uppercase;
+	font-size: 2em;
+	line-height: 1em;
+	display: inline-block;
+	width: 100%;
+}
+
+body .intro-text {
+	padding-top: 200px;
 }
 
 body .intro-text .intro-heading {
@@ -42,6 +61,24 @@ body .intro-text .intro-heading {
 	font-size: 8em;
 	line-height: 1em;
 	margin-bottom: 15px;
+}
+
+body .intro-text .intro-subtext {
+	font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+body .header {
+	font-family: 'DINPro-Bold', 'Helvetica', 'sans-serif' ;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 4em;
+	line-height: 1em;
+	margin-bottom: 15px;
+	margin-top: 75px;
 }
 
  @-webkit-keyframes GradientAnimation {
